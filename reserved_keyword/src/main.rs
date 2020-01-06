@@ -30,5 +30,10 @@ fn main() {
     match mapp.get(&input) {
                 Some(kelime) => println!("{}: {}", input, kelime),
                 None => println!("Tabloda böyle bir anahtar kelime yok"),
+<<<<<<< HEAD
     };  
 }
+=======
+     };  
+}
+>>>>>>> 95ff51912b79dca7771fdb4bbf1ce3be1e1e3c13
