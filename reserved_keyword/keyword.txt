@@ -1,0 +1,4 @@
+as - İlkel tür dönüşümlerini gerçekleştirme, bir öğe içeren belirli bir özelliği belirsizleştirme ya da use ve extern crate ifadelerindeki öğeleri yeniden adlandırmak.
+break - Bir döngüden hemen çıkmak.
+const - Sabit öğeleri veya sabit ham işaretçileri tanımlamak.
+continue - Sonraki döngü yinelemesine devam etmek. 
