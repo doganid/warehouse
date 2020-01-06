@@ -4,11 +4,11 @@ use std::collections::HashMap;
 
 fn main() {
     
-    let belge = File::open("keyword.txt").expect("Belge açılmıyor!");
+    let file = File::open("keyword.txt").expect("Unable to access file!");
   
-    let buf_reader = BufReader::new(belge);
+    let buf_reader = BufReader::new(file);
     
-    let mut tablo = HashMap::new();
+    let mut mapp = HashMap::new();
 
     for line in buf_reader.lines() {
         let parca: Vec<String> = line.unwrap().split("-").map(|s: &str| s.to_string()).collect(); 
@@ -16,24 +16,18 @@ fn main() {
         let son = String::from(&parca[1]);
         let i = ilk.trim();
         let s = son.trim();
-        tablo.insert(String::from(i), String::from(s));
+        mapp.insert(String::from(i), String::from(s));
     }
-
-    //println!("{:?}", tablo);
-
-    // Bu noktadan sonra hash sorgusu yapılacak
 
     let mut x = String::new();
     
-    println!("Öğrenmek istediğiniz kelimeyi giriniz:");
+    println!("Enter the keyword you'd like to know:");
 
-    io::stdin().read_line(&mut x).expect("Error reading input");
+    io::stdin().read_line(&mut x).expect("Error reading input word!");
     
-    let input: String = x.trim().parse().expect("Error parsing number");
-
-    //println!("{:?}", input);
-    
-    match tablo.get(&input) {
+    let input: String = x.trim().parse().expect("Error parsing input word!");
+ 
+    match mapp.get(&input) {
                 Some(kelime) => println!("{}: {}", input, kelime),
                 None => println!("Tabloda böyle bir anahtar kelime yok"),
      };
