@@ -1,4 +1,48 @@
-as - İlkel tür dönüşümlerini gerçekleştirme, bir öğe içeren belirli bir özelliği belirsizleştirme ya da use ve extern crate ifadelerindeki öğeleri yeniden adlandırmak.
-break - Bir döngüden hemen çıkmak.
-const - Sabit öğeleri veya sabit ham işaretçileri tanımlamak.
-continue - Sonraki döngü yinelemesine devam etmek. 
+as - (Cur) İlkel türlerin dönüşüm işlemlerinde, bir öğe içeren belirli bir özelliği belirsizleştirirken, use ve extern crate ifadelerindeki öğeleri yeniden adlandırılmasında.
+break - (Cur) Bir döngüden hemen çıkılması gerektiğinde.
+const - (Cur) Sabit öğeleri veya sabit ham işaretçileri tanımlarken.
+continue - (Cur) Sonraki döngü yinelemesine atlarken. 
+crate - (Cur) Harici bir sandık ya da bir makroda sandığı temsil ederken
+dyn - (Cur) Bir özellik nesnesine dinamik gönderme
+else - (Cur) if ve if let Kontrol akışı yapıları için yedek durum
+enum - (Cur) Enum tanımı
+extern - (Cur) Harici bir sandık, değişken veya işlev bağlayıcı
+false - (Cur) Mantıksal yanlış değerini ifade eden Boolean değişmezi
+fn - (Cur) Bir işlev veya işlev işaretçi türü tanımı
+for - (Cur) bir yineleyici üzerinden öğeler arasında geçiş, bir özelliği uygulama, daha yüksek seviyede yaşam süresi bildirme
+if - (Cur) Koşullu ifade sonucuna dayanan dallanma
+impl - (Cur) Doğal veya sürekli işlevsellik uygulama
+in - (Cur) for döngüsü söz dizimi parçası
+let - (Cur) Değişken bağlamak
+loop - (Cur) Koşulsuz döngü
+match - (Cur) Bir değeri uygun kalıpla eşleştirme
+mod - (Cur) Modül tanımlar
+move - (Cur) Yakalanan her şeyin mülkiyetini alan kapama
+mut - (Cur) Referans, ham işaretçi, desen ilklendirmede değişebilirlik sağlar
+pub - (Cur) Yapı alanları, impl blokları veya modüllerde genel görünürlük sağlar
+ref - (Cur) Referans ile bağlamak
+return - (Cur) İşlevden dönüş
+Self - (Cur) Özelliği uygulayan türün lakabı
+self - (Cur) Geçerli modül, bir metodun alıcısı
+static - (Cur) Tüm program yürütme süresi veya yaşam süresi boyunca geçerli genel değişken 
+struct - (Cur) Yapı tanımı bildirir
+super - (Cur) Geçerli modülün üst öğesi
+trait - (Cur) Özellik tanımlar
+true - (Cur) Mantıksal doğru değerini ifade eden Boolean değişmezi
+type - (Cur) Mevcut bir tür için lakap tanımlar
+unsafe - (Cur) Bellek güvenliği tür sistemi tarafından doğrulanamayan kod veya arabirimler: işlev, özellik, uygulama vb.
+use - (Cur) Diğer sandık veya modüllerdeki öeğeleri kapsama aktarır. Yeniden isimlendirmekte de kullanılır.
+where - (Cur) Bir türün kısıtlama adımlarını ifade eder
+while - (Cur) Bir ifadenin koşuluna bağlı olan şartlı döngü
+abstract - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+async - (Rez) Geçerli iş parçasını engellemek yerine Future döndürür.
+await - (Rez) Bir Future' ın sonucu hazır olana kadar yürütmeyi askıya alır.
+become - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+box - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+do - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+final - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+macro - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+override - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+priv - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+try - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+typeof - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
