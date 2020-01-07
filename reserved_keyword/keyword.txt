@@ -46,3 +46,6 @@ override - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
 priv - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
 try - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
 typeof - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+unsized - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+virtual - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
+yield - (Rez) Olası bir kullanım amacıyla Rust için ayrılmıştır.
