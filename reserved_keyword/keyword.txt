@@ -20,7 +20,7 @@ loop - (Cur) bir koşulsuz döngü gerektiğinde
 match - (Cur) herhangi bir değeri en uygun kalıpla eşleştirirken
 mod - (Cur) bir modül tanımlar ya da bildirirken
 move - (Cur) yakalanan her şeyin mülkiyetini devralabilmek için oluşturulan kapama işlevlerinde
-mut - (Cur) referans, ham işaretçiler veya örüntü bağlamında değişirlik istendiğinde
+mut - (Cur) referans, ham tanımlayıcılar veya örüntü bağlamında değişirlik istendiğinde
 pub - (Cur) yapı alanları, impl blokları veya modüllerde genel görünürlük gerektiğinde
 ref - (Cur) referans ile bağlamak gerektiğinde
 return - (Cur) bir işlevden dönülmesi gerektiğinde
