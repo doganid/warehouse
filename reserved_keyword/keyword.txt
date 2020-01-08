@@ -2,7 +2,7 @@ as - (Cur) ilkel türlerin dönüşüm işlemlerinde, bir öğe içeren belirli 
 async - (Cur) eş zamansız işlemlerde geçerli iş parçasını engellemeden çalışmak gerektiğinde
 await - (Cur) bir Future' ın sonucu hazır olana kadar yürütmeyi askıya almak gerektiğinde
 break - (Cur) bir döngüden hemen çıkmak gerektiğinde.
-const - (Cur) sabit öğeleri veya sabit ham işaretçileri tanımlarken.
+const - (Cur) sabit öğeleri veya sabit ham tanımlayıcıları bildirirken
 continue - (Cur) bir sonraki döngü yinelemesine geçilmek istenirken 
 crate - (Cur) harici bir sandığı veya bir makro içinde sandık temsil ederken
 dyn - (Cur) bir özellik nesnesine dinamik başvuru yaparken
