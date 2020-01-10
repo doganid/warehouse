@@ -2,7 +2,7 @@ as - (Cur) ilkel türlerin dönüşüm işlemlerinde, bir öğe içeren belirli 
 async - (Cur) eş zamansız işlemlerde geçerli iş parçasını engellemeden çalışmak gerektiğinde
 await - (Cur) bir Future' ın sonucu hazır olana kadar yürütmeyi askıya almak gerektiğinde
 break - (Cur) bir döngüden hemen çıkmak gerektiğinde.
-const - (Cur) sabit öğeleri veya sabit ham tanımlayıcıları bildirirken
+const - (Cur) sabit öğeleri veya sabit ham işaretçileri bildirirken
 continue - (Cur) bir sonraki döngü yinelemesine geçilmek istenirken 
 crate - (Cur) harici bir sandığı veya bir makro içinde sandık temsil ederken
 dyn - (Cur) bir özellik nesnesine dinamik başvuru yaparken
@@ -20,7 +20,7 @@ loop - (Cur) bir koşulsuz döngü gerektiğinde
 match - (Cur) herhangi bir değeri en uygun kalıpla eşleştirirken
 mod - (Cur) bir modül tanımlar ya da bildirirken
 move - (Cur) yakalanan her şeyin mülkiyetini devralabilmek için oluşturulan kapama işlevlerinde
-mut - (Cur) referans, ham tanımlayıcılar veya örüntü bağlamında değişirlik istendiğinde
+mut - (Cur) referans, ham işaretçiler veya örüntü bağlamında değişirlik istendiğinde
 pub - (Cur) yapı alanları, impl blokları veya modüllerde genel görünürlük gerektiğinde
 ref - (Cur) referans ile bağlamak gerektiğinde
 return - (Cur) bir işlevden dönülmesi gerektiğinde
